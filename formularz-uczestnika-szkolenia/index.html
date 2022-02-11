@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz zapisu uczestnika</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xrgjqzoy" method="POST">
+        <header>
+            <h1>Formularz zapisu uczestnika na kurs</h1>
+        </header>
+    
+        <label for="name">Imię:</label> <br>
+        <input type="text" name="name" id="name"> <br>
+    
+        <label for="surname">Nazwisko:</label> <br>
+        <input type="text" name="surname" id="surname"> <br>
+
+        <label for="email">Adres e-mail:</label> <br>
+        <input type="email" name="e-mail" id="email"> <br>
+
+        <label for="phone">Numer telefonu:</label> <br>
+        <input type="tel" name="phone number" id="phone"> <br>
+
+        <label>Wybierz miasto:</label> <br>
+        <select name="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select> <br>
+
+        <label>Płeć:</label> <br>
+        <input type="radio" name="Men">Mężczyzna <br>
+        <input type="radio" name="Woman">Kobieta <br>
+
+        <input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie moich danych osobowych. <br>
+
+        <label>Wiadomość:</label> <br>
+        <textarea name="message"></textarea> <br>
+
+        <input type="submit" value="Wyślij formularz">
+
+    </form>   
+</body>
+</html>
