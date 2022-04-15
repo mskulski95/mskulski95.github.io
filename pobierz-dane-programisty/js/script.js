@@ -16,7 +16,6 @@ $(document).ready(function () {
                 jqBody.append(dZawod);
                 jqBody.append(hr);
 
-                console.log(data);
             });
     });
 });
