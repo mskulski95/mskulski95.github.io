@@ -1,0 +1,14 @@
+.hr {
+    max-width: 20%;
+}
+
+.bg-item {
+    height: 100px;
+    width: 100px;
+}
+
+.item {
+    color: orange;
+    font-size: 4em;
+}
+
